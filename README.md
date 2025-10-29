@@ -98,17 +98,23 @@ Tweets are classified into **Positive**, **Negative**, or **Neutral** sentiments
 | Negative | 35% |
 | Neutral | 23% |
 
+---
+
 ## Performance
 - Accuracy: ~91% on labeled Twitter datasets. 
 - Latency: ~1s per batch sentiment analysis. 
-- Scalability: Handles thousands of tweets via MongoDB efficiently. 
+- Scalability: Handles thousands of tweets via MongoDB efficiently.
+
+---
 
 **Key Visualizations:**
 - Sentiment distribution (Pie Chart)  
 - Temporal trends (Line Chart)  
 - Word frequency (Word Cloud)  
 - Top hashtags  
-- Topic modeling insights  
+- Topic modeling insights
+
+---
 
 
 ## Conclusion
