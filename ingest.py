@@ -4,6 +4,7 @@ from mongoconnection import insert_many, ensure_indexes, collection
 from datetime import datetime
 import os
 
+#add your dataset link
 CSV_PATH = os.getenv("CSV_PATH", r"C:\Users\gupta\Desktop\BDA_Project\tweets_data.csv")
 
 def ingest_csv(csv_path=CSV_PATH, limit=None):
