@@ -12,8 +12,9 @@ This project demonstrates how Big Data, NoSQL, and NLP can be integrated to extr
 - [Tools and Technologies](#tools-and-technologies)
 - [Methodology](#methodology)
 - [Results and Performance](#resultsandperformance)
+- [Performance](#performance)
 - [Conclusion](#conclusion)
-- 
+ 
 ---
 
 ## Abstract
@@ -86,7 +87,7 @@ Tweets are classified into **Positive**, **Negative**, or **Neutral** sentiments
 
 ---
 
-## Results and Performance
+## Results 
 
 - Processed over **5,000 tweets** related to chosen keywords or hashtags.  
 - Generated real-time sentiment classifications and topic summaries.  
@@ -96,9 +97,14 @@ Tweets are classified into **Positive**, **Negative**, or **Neutral** sentiments
 | Positive | 42% |
 | Negative | 35% |
 | Neutral | 23% |
-• Accuracy: ~91% on labeled Twitter datasets.
-• Latency: ~1s per batch sentiment analysis.
-• Scalability: Handles thousands of tweets via MongoDB efficiently.
+
+## Performance
+
+| Metrices | Value |
+|------------|-------------|
+| Accuracy | | ~91% on labeled Twitter datasets. |
+| Latency | | ~1s per batch sentiment analysis. |
+| Scalability | | Handles thousands of tweets via MongoDB efficiently. |
 
 **Key Visualizations:**
 - Sentiment distribution (Pie Chart)  
